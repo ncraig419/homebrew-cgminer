@@ -2,7 +2,7 @@ require 'formula'
 
 class Cgminer < Formula
   homepage ""
-  url 'https://github.com/vthoang/cgminer.git', :branch => 'master'
+  url 'https://github.com/vthoang/cgminer.git', :branch => 'r606'
   version "4.11.1"
 
   depends_on 'autoconf' => :build
